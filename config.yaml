@@ -1,0 +1,12 @@
+baseURL: https://tapedrive.io/
+languageCode: en-us
+title: Tape Drive
+theme: tapedrive
+DisableRSS: true
+params:
+  author: Jan Willhaus
+  description: Tape Drive, the selfhosted Podcast Client and Archival server
+  github_url: https://github.com/janwh/tapedrive
+disableKinds:
+- taxonomy
+- taxonomyTerm

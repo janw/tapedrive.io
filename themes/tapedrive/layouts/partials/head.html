@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<meta property="og:title" content="{{ .Site.Title }}">
+<meta property="og:type" content="website">
+<meta property="description" content="{{ .Site.Params.description }}">
+<meta name="description" content="{{ .Site.Params.description }}">
+<meta property="og:description" content="{{ .Site.Params.description }}">
+<meta property="author" content="{{ .Site.Params.author }}">
+<meta name="author" content="{{ .Site.Params.author }}">
+<meta property="og:author" content="{{ .Site.Params.author }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{ .Title }}</title>
+{{ .Hugo.Generator }}
+
+
+<link rel="stylesheet" href="{{ .Site.BaseURL }}vendor/bootstrap.min.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/fonts.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
