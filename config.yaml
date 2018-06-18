@@ -6,7 +6,7 @@ DisableRSS: true
 params:
   author: Jan Willhaus
   description: Tape Drive, the selfhosted Podcast Client and Archival server
-  github_url: https://github.com/janwh/tapedrive
+  github_url: https://github.com/janw/tapedrive
 disableKinds:
 - taxonomy
 - taxonomyTerm
